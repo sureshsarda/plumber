@@ -1,0 +1,15 @@
+name: Sample Configuration
+description: this is a sample configuration to demonstrate plumber
+steps:
+- step:
+    name: This is the first echo
+    type: echo
+    arguments:
+      message: This message will be printed
+- step:
+    name: This is the second echo
+    type: echo
+    arguments:
+      message: This message will be printed
+    repeat: 5
+    wait: 1
